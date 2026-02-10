@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/matteo/Documentos/Faculdade/PTR/Trabalho 2'
+gcc -Wall -Wextra -g -std=c17 -Iinclude  src/main.c src/matrix.c src/robot.c -o main -lm -lpthread
+echo "Compilação finalizada! Para executar: ./main"
+make: Leaving directory '/home/matteo/Documentos/Faculdade/PTR/Trabalho 2'
+ 
