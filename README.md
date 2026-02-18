@@ -1,4 +1,4 @@
-# PTR Applications - Laboratórios de Programação de Tempo Real
+# PTR Applications - Real Time Systems
 
 Este repositório consolida os trabalhos práticos desenvolvidos na disciplina de **Programação de Tempo Real** (Engenharia da Computação - UFAM).  
 O foco dos projetos é a aplicação de concorrência, sistemas de controle distribuído e análise temporal em ambiente Linux.
