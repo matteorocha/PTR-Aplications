@@ -53,6 +53,15 @@ Evolução para um sistema complexo com múltiplas tarefas sincronizadas.
 
 ---
 
+
+## 📂 Estrutura do Projeto
+
+*   **[/01-threads-basico](./01-threads-basico)**: Introdução à criação de pthreads e contexto.
+*   **[/02-sincronizacao](./02-sincronizacao)**: Resolução de condições de corrida usando Mutex e Semáforos.
+*   **[/03-escalonamento](./03-escalonamento)**: Algoritmo de prioridade para sistemas de tempo real.
+
+---
+
 ## 🚀 Git e Instruções de Teste
 
 Para baixar este repositório e executar os testes de cada trabalho, siga o fluxo abaixo utilizando o Git e o terminal Linux.
