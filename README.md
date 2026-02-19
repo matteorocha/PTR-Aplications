@@ -114,8 +114,4 @@ octave scripts/plot_lab3.m
 ```
 
 ### 📌 Observações
-    Este projeto foi desenvolvido em ambiente Linux.
-
-    Recomenda-se a utilização de um kernel padrão (não RT) para reproduzir os experimentos conforme o contexto da disciplina.
-
-    Os resultados de jitter e latência podem variar conforme a carga do sistema e processos em background.
+Este projeto foi desenvolvido em ambiente Linux. Recomenda-se a utilização de um kernel padrão (não RT) para reproduzir os experimentos conforme o contexto da disciplina. Os resultados de jitter e latência podem variar conforme a carga do sistema e processos em background.
