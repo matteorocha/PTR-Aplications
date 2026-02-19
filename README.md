@@ -57,8 +57,8 @@ Evolução para um sistema complexo com múltiplas tarefas sincronizadas.
 ## 📂 Estrutura do Projeto
 
 *   **[/01-threads-basico](./01-threads-basico)**: Introdução à criação de pthreads e contexto.
-*   **[/02-sincronizacao](./02-sincronizacao)**: Resolução de condições de corrida usando Mutex e Semáforos.
-*   **[/03-escalonamento](./03-escalonamento)**: Algoritmo de prioridade para sistemas de tempo real.
+*   **[/02-sincronizacao-robo](./02-sincronizacao-robo)**: Resolução de condições de corrida usando Mutex e Semáforos.
+*   **[/03-escalonamento-prioridade](./03-escalonamento-prioridade)**: Algoritmo de prioridade para sistemas de tempo real.
 
 ---
 
@@ -79,7 +79,7 @@ Cada trabalho possui seu próprio Makefile. O fluxo de teste é padronizado:
 ## ▶️ Trabalho 1 (Testes Unitários das ADTs)
 
 ```bash
-cd Work1
+cd 01-threads-basico
 make        # Compila o projeto    
 ./main # Executa os testes de Matrizes e Integrais
 
@@ -87,10 +87,10 @@ make        # Compila o projeto
 ## ▶️ Trabalho 2 (Simulação com/sem Carga)
 
 ```bash
-cd ../Work2
+cd ../02-sincronizacao-robo
 make
-./main 0    # Executa SEM carga de CPU (modo padrão)
-./main 1    # Executa COM carga de CPU (modo stress)
+./main  # Executa SEM carga de CPU (modo padrão)
+./main --carga    # Executa COM carga de CPU (modo stress)
 
 📁 Os dados gerados serão salvos na pasta data/.
 
@@ -98,7 +98,7 @@ make
 ## ▶️ Trabalho 3 (Controle Distribuído)
 
 ```bash
-cd ../Work3
+cd ../03-escalonamento-prioridade
 make
 ./main
 ```
@@ -107,7 +107,7 @@ make
 
 Os Trabalhos 2 e 3 geram arquivos de log. Para visualizar os gráficos de trajetória e erro:
 
-### Estando na pasta do trabalho (ex: Work3)
+### Estando na pasta do trabalho (ex: 03-escalonamento-prioridade)
 
 ```bash
 octave scripts/plot_lab3.m
